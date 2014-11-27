@@ -1,0 +1,572 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rot",
+				"RotacionFinal"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"s",
+				"src"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"reques",
+				"requestAjax"
+			],
+			[
+				"onc",
+				"onclick	Attr"
+			],
+			[
+				"txtE",
+				"txtEdad"
+			],
+			[
+				"focus",
+				"focusout"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"txt",
+				"text-align"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"in",
+				"invert"
+			],
+			[
+				"bordec",
+				"border-color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"whi",
+				"width"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"utf",
+				"utf-8"
+			],
+			[
+				"utf8_",
+				"utf8_encode"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"focu",
+				"focusout"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"regis",
+				"Registrar"
+			],
+			[
+				"a",
+				"action	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"LiveReload: Enable",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"relo",
+				"Emmet: Reload Extensions"
+			],
+			[
+				"reload",
+				"Emmet: Reload Extensions"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 381.0
+	},
+	"console":
+	{
+		"height": 218.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_ope­ner(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').­write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(','%20')).read()); print 'Please restart Sublime Text to finish installation'",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_ope­ner(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').­write(urllib2.urlopen('http://sublime.wbond.net/'+pf.rep... ','%20')).read()); print 'Please restart Sublime Text to finish installation'"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/Portafolios"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/Ubuntu/CursoCSS/keyframes/ejercicio1.html",
+		"/C/xampp/htdocs/Ubuntu/CursoCSS/keyframes/estrella.html",
+		"/C/xampp/htdocs/Ubuntu/CursoCSS/keyframes/style.less",
+		"/C/xampp/htdocs/Ubuntu/CursoCSS/keyframes/prueba.css",
+		"/E/Practicas Ubuntu/Less",
+		"/C/xampp/htdocs/Ubuntu/CursoCSS/keyframes/prueva.html",
+		"/C/Users/Felix/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/xampp/htdocs/Ubuntu/CursoCSS/keyframes/a.css",
+		"/C/xampp/htdocs/Ubuntu/CursoCSS/TransformCSS3/index.html",
+		"/C/xampp/htdocs/Ubuntu/CursoCSS/TransformCSS3/index.css",
+		"/C/xampp/htdocs/Ubuntu/CursoCSS/MenuDeNavegacionDesplegable/index.css",
+		"/C/xampp/htdocs/Ubuntu/CursoCSS/MenuDeNavegacionDesplegable/index.html",
+		"/C/Users/Felix/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/Felix/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+		"/C/xampp/htdocs/Ubuntu/CursoCSS/3DJqueryYCSS/JQueryTransit.js",
+		"/C/xampp/htdocs/Traductor/codiguiando.html",
+		"/E/Programacion/Links De Ejemplos/Otros.txt",
+		"/E/Programacion/Links De Ejemplos/Paginas Web.txt",
+		"/C/xampp/htdocs/Conferencia2014 - copia/Paginas/Registrar.php",
+		"/C/Users/Felix/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/E/Universidad/Base De Datos/OracleQuery/Select GroupBy.sql",
+		"/E/Universidad/Base De Datos/OracleQuery/PracticaParcialDos.sql",
+		"/E/Universidad/Base De Datos/OracleQuery/Consultas group by 2.sql",
+		"/E/Universidad/Base De Datos/Oracle/Codigos",
+		"/E/Programacion/Links De Ejemplos/Bases de datos.txt",
+		"/E/Programacion/Links De Ejemplos/Base de datos.txt",
+		"/E/Universidad/Examenes/Fianl BD/ttt.sql",
+		"/E/Universidad/Examenes/Fianl BD/Querlys.sql",
+		"/E/Universidad/Base De Datos/OracleQuery/EjercicioConsultaGroupBy.sql",
+		"/E/Universidad/Base De Datos/OracleQuery/GroupBy.sql",
+		"/E/Universidad/Base De Datos/OracleQuery/InsertsGrupBy.sql",
+		"/E/Universidad/Base De Datos/OracleQuery/Sqlparcial2ejemplos.sql",
+		"/E/Universidad/Base De Datos/OracleQuery/VideoClub.sql",
+		"/C/xampp/htdocs/Traductor/index.html",
+		"/C/xampp/htdocs/Practicasyoel/Registro1/index.php",
+		"/C/xampp/htdocs/Practicasyoel/Registro1/css/registro.css",
+		"/E/Archivos .txt/Descargar Musica.txt",
+		"/C/Users/Felix/Pictures/PruebaSuma/Efecto-Parallax-master/index.html",
+		"/E/Programacion/AtajosDeSublime.txt",
+		"/C/Users/Felix/Pictures/PruebaSuma/Efecto-Parallax-master/style.css",
+		"/E/Programacion/Ejemplos De Diseño Web/comohotels.png",
+		"/C/Users/Felix/AppData/Local/Temp/Temp1_Efecto-Parallax-master.zip/Efecto-Parallax-master/index.html",
+		"/C/Users/Felix/AppData/Local/Temp/Temp1_Efecto-Parallax-master.zip/Efecto-Parallax-master/style.css",
+		"/C/Users/Felix/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/E/Programacion/Links De Ejemplos/Java.txt",
+		"/C/Users/Felix/Documents/Sumadora.txt",
+		"/E/Archivos .txt/Contraseñas/Contraseñas y cuentas.txt",
+		"/E/Programacion/Links De Ejemplos/Entretenimiento.txt",
+		"/C/xampp/htdocs/ProyectoPaginasWeb/ProyectoPaginasWeb33/jquery/Login.js",
+		"/E/Aplicaciones/Paginas informativas/Bases de datos.txt",
+		"/E/Archivos .txt/Correos Y usuarios.txt",
+		"/E/Archivos .txt/Usuarios Y Password BD.txt",
+		"/E/Programacion/Servidor 2003.txt",
+		"/C/Users/Felix/Downloads/Nuevo documento de texto (2).txt",
+		"/F/Codigo ASCII.txt",
+		"/F/minus.txt",
+		"/C/xampp/htdocs/PracticaJavaScript/DOM/js/Introduccion.js",
+		"/K/Datos/Descarga",
+		"/E/Descarga",
+		"/C/Users/Felix/Desktop/combo",
+		"/C/Users/Felix/Desktop/Codigos2.txt",
+		"/C/Users/Felix/Documents/ClientCheckerReport.txt",
+		"/E/Archivos .txt/Descarga",
+		"/E/Documentos/Contraseñas/Contraseñas y cuentas.txt",
+		"/E/Archivos .txt/Descargar.txt",
+		"/C/xampp/htdocs/PaginaServidor/Paginas/Registrando.php",
+		"/C/Users/Felix/Pictures/acdc on Instagram.html",
+		"/C/xampp/htdocs/PaginaServidor/css/Registro.css",
+		"/C/xampp/htdocs/PaginaServidor/Paginas/Conexion.php",
+		"/C/xampp/htdocs/PaginaServidor/index.html",
+		"/C/xampp/htdocs/ProyectoPaginasWeb/ProyectoPaginasWeb/Paginas/Registrando.php",
+		"/C/xampp/htdocs/ProyectoPaginasWeb/ProyectoPaginasWeb/Paginas/Registro.php",
+		"/E/Codigo excel vba.txt",
+		"/C/xampp/htdocs/Conferencia2014/Paginas/Registrar.php",
+		"/C/xampp/htdocs/PracticaResponsive/Bootstrap/Boostrap1/Modal.html",
+		"/C/xampp/htdocs/ProyectoPaginasWeb/ProyectoPaginasWeb/Paginas/Conexion.php",
+		"/C/xampp/htdocs/Conferencia2014/JQuery/ValidacionRegistros.js",
+		"/C/xampp/htdocs/ProyectoPaginasWeb/ProyectoPaginasWeb/Jquery/Registro.js",
+		"/C/xampp/htdocs/PaginaServidor/css/style.css",
+		"/C/xampp/htdocs/PaginaServidor/css/style.less",
+		"/C/xampp/htdocs/PaginaServidor/css/less/mixins/labels.less",
+		"/C/xampp/htdocs/PaginaServidor/css/carousel.css",
+		"/C/xampp/htdocs/PaginaServidor/css/bootstrap.css",
+		"/C/xampp/htdocs/PracticaResponsive/Bootstrap/Boostrap1/Tooltips.html",
+		"/C/Users/Felix/Videos/modificaryeliminar",
+		"/C/xampp/htdocs/PaginaServidor/js/bootstrap.min.js",
+		"/C/xampp/htdocs/PaginaServidor/js/customize.min.js",
+		"/C/xampp/htdocs/PaginaServidor/js/docs.min.js",
+		"/C/Users/Felix/AppData/Local/Temp/Temp1_AKI.zip/MySQL/src/Aplicacion/Vistas/Index.java",
+		"/C/Users/Felix/AppData/Local/Temp/Temp1_AKI.zip/MySQL/src/Aplicacion/Terminal/Index.java",
+		"/C/xampp/htdocs/Conferencia2014 - copia/Index.php",
+		"/C/xampp/htdocs/PracticaResponsive/Bootstrap/Boostrap1/font-awesome-4.2.0/css/font-awesome.min.css",
+		"/E/Universidad/Paginas web/pasosproyectoweb/ProyectoPaginasWeb18/Paginas/Perfil.php",
+		"/C/xampp/htdocs/Practicasyoel/Ejemplo1/css/estilos.css",
+		"/C/xampp/htdocs/Practicasyoel/Ejemplo1/index.html",
+		"/C/xampp/htdocs/PracticaResponsive/Bootstrap/Boostrap1/ButtonsRadioYCheckbox.html",
+		"/C/xampp/htdocs/PracticaResponsive/Bootstrap/PracticaLess/css/style.less",
+		"/C/xampp/htdocs/PracticaResponsive/Bootstrap/Boostrap1/bootstrapfacilito/style.less",
+		"/E/Universidad/Paginas web/pasosproyectoweb/ProyectoPaginasWeb11/Index.php",
+		"/E/Universidad/Paginas web/pasosproyectoweb/ProyectoPaginasWeb11/Paginas/Perfil.php",
+		"/E/Universidad/Paginas web/pasosproyectoweb/ProyectoPaginasWeb11/Paginas/Administer.php",
+		"/C/Users/Felix/Music/Insertar",
+		"/C/xampp/htdocs/ProyectoPaginasWeb/ProyectoPaginasWeb33/Index.php",
+		"/C/xampp/htdocs/ProyectoPaginasWeb/ProyectoPaginasWeb33/paginas/Administer.php",
+		"/C/xampp/htdocs/ProyectoPaginasWeb/ProyectoPaginasWeb33/paginas/js/busqueda3.js",
+		"/E/Practicas Ubuntu/Codigos Xampp",
+		"/E/Practicas Ubuntu/Instalar Sublime-text3",
+		"/E/Practicas Ubuntu/Rutas",
+		"/E/Practicas Ubuntu/Nodejs",
+		"/E/Practicas Ubuntu/AbiblitarImagenes",
+		"/C/xampp/htdocs/Semestres/index.php",
+		"/C/xampp/htdocs/Semestres/css/index.css",
+		"/C/Users/Felix/Documents/Tutorial.txt",
+		"/C/xampp/htdocs/Semestres/index.html",
+		"/C/xampp/htdocs/PracticaResponsive/Bootstrap/Boostrap1/Tabs.html",
+		"/C/xampp/htdocs/PracticaResponsive/Bootstrap/Boostrap1/Popover.html",
+		"/C/Users/Felix/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/xampp/htdocs/PracticaResponsive/Bootstrap/Boostrap1/Thumbnails.html",
+		"/C/xampp/htdocs/Servidor/index.html",
+		"/C/xampp/htdocs/Servidor/Registro.html",
+		"/C/xampp/htdocs/PracticaResponsive/Bootstrap/Boostrap1/Boostrap1.html",
+		"/C/xampp/htdocs/PracticaResponsive/Bootstrap/Boostrap1/Notificaciones(Alerts).html",
+		"/C/xampp/htdocs/PracticaResponsive/Bootstrap/Boostrap1/Boostrap21.html",
+		"/C/xampp/htdocs/PracticaResponsive/Bootstrap/Boostrap1/Boostrap22.html",
+		"/E/Aplicaciones/Web/PracticaResponsive/Bootstrap/Boostrap1/Boostrap1.html",
+		"/F/Led.txt",
+		"/C/xampp/htdocs/PracticaResponsive/Bootstrap/Boostrap1/pur.html",
+		"/C/Users/Felix/Downloads/primera.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sdfg",
+			"animacion",
+			"@-webkit-keyframes animacion\n		{\n			to{\n				-webkit-transform: rotate3d(0,1,0,180deg);\n			}\n		}",
+			"ctrl+q",
+			"Eda",
+			"Tel",
+			"date",
+			"email",
+			"time",
+			"phones",
+			"icon",
+			".span",
+			"row",
+			"form",
+			"Semestres",
+			"		</",
+			"<div class=\"tab",
+			"href=\"#",
+			"pull",
+			"\n		<div class=\"btn-group\">\n			<a href=\"\" class=\"btn\">Izq</a>\n			<a href=\"\" class=\"btn\">Centro</a>\n			<a href=\"\" class=\"btn\">Der</a>\n		</div>",
+			"mini",
+			"large",
+			"inverse",
+			"btn-inverse",
+			"inverse",
+			"warning",
+			"success",
+			"btn",
+			"span12",
+			"sapan12",
+			"body",
+			"body {",
+			"body{",
+			"body",
+			".spac",
+			"space",
+			"space12",
+			"row",
+			"hidden",
+			"<form action=\"\" class=\"singup\">",
+			">\n",
+			"<label for=\"\">Primer Apellido: </label>",
+			">\n",
+			"body",
+			"rememb",
+			"extension=php_oci8_",
+			"matema",
+			"contabilidad ",
+			"algori",
+			"algeb",
+			"logica",
+			"introdu",
+			"contabil",
+			"metodolo",
+			"go"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\">\n",
+			"hola"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "Portafolios.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\xampp\\htdocs\\Practicasyoel\\Registro1\\index.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 180.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
