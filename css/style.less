@@ -90,7 +90,7 @@ html,body{
 
 	#main-container .seccion{
 		width: 500px;	
-		height: 600px;
+		height: 677px;
 		display: inline-block;
 		padding:10px;
 		vertical-align: top;
@@ -103,14 +103,48 @@ html,body{
 	}
 
 	#seccionInicio{
-		padding-top: 100px !important;
+		padding-top: 65px !important;
 		width: 450px !important;
 		text-align: center;
+		padding-left: 20px !important;
+		padding-right: 20px!important;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		overflow: hidden;
+		overflow-y: scroll;
 	}
 
 	#logo2{
 		width: 350px;
 		height: 330px;
+		margin-bottom: 0;
+	}
+	
+	#seccionInicio #inicio-descripcion h1{
+		font-family: @fuentes;
+		font-style: normal;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		font-size: 3em;
+	}
+
+	#seccionInicio #inicio-descripcion h4{
+		color: @color-descripcion;
+		margin-top: 0px;
+		margin-bottom: 17%;
+	}
+
+	#seccionInicio #inicio-descripcion p{
+		color: @color-descripcion;
+		font-style: italic;
+		font-size: 1em;
+	}
+
+	.separador{
+		background-image: url("../img/separador.png");
+		background-position: center center;
+		height: 65px;
 	}
 
 }

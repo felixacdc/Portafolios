@@ -4,7 +4,9 @@
 	<meta charset="UTF-8">
 	<title>Mi Portafolios</title>
 	<link rel="stylesheet" href="css/main.css">
+	<script src="js/jquery-1.11.1.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/jquery.rss.js"></script>
 </head>
 <body>
 
@@ -35,9 +37,20 @@
 			<div class="inicio-logo">
 				<img src="img/logotipo2.png" alt="" id="logo2">
 			</div>
+			<div id="inicio-descripcion">
+				<h1>PORTAFOLIO</h1>
+				<h4>DESARROLLADOR WEB</h4>
+				<P>Bienvenidos a mi portafolio, mi nombre es Felix Mendez y soy autor de un blog de diseño web. <br>
+				En este espacio encontraran las noticias de mi blog, asi como los trabajos en los que he estado constribuyendo.</P>
+			</div>
+			<div class="separador"></div>
+			<div class="video">
+				<iframe width="400" height="315" src="http://www.youtube.com/embed/fzEXjmuwdYw" frameborder="0" allowfullscreen></iframe>
+			</div>
 		</div>
 		<div class="seccion" id="seccionBlog">
 			<h2>BLOG</h2>
+			<div id="posts"></div>
 		</div>
 		<div class="seccion" id="seccionTrabajo">
 			<h2>TRABAJO</h2>
@@ -51,7 +64,11 @@
 	</div>
 	<!-- Fin del container -->
 
-
+	<script>
+		$(document).on("ready",function(){
+			$("#posts").blogRSS("http://www.vidamrr.com/feeds/posts/default?alt=json-in-script&callback=?");
+		});
+	</script>
 
 </body>
 </html>
