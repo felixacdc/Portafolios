@@ -1,0 +1,122 @@
+/*esto es para que las capas cuando tengan padding no se salgan del tamaño que le damos*/
+
+@import url("variable.less");
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html,body{
+	background-color: @color-base;
+	// background: url("../img/fondo.png");
+	font-family: @fuentes;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	
+	// +++++++++++++++Menu+++++++++++++
+
+	#menu-container{
+		background: @color-menu;
+		height: 100%;
+		position: fixed;
+		width:200px;
+		text-align: center;
+	}
+	
+	#menu-container .logo-menu{
+		padding-top: 20px;
+	}
+
+	#menu-container .logo-menu .logo-name{
+		padding-top: 10px;
+		color: #eee;
+		font-size: 14px;
+	}
+
+	#menu-container .logo-menu .logo-desc{
+		padding-top: 10px;
+		color: #bbb;
+		font-size: 10px;
+		padding-bottom: 10px;
+	}
+	#menu-container .contimg{
+		width: 100px;
+		height: 100px;
+		background-color: #fff;
+		border-radius: 50%;
+		margin: 0 auto;
+	}
+
+	#menu-container .contimg #invert{
+		margin-top: 10px;
+		width: 80px;
+		height: 80px;
+	}
+
+	#menu-container #menu{
+		border-top: solid 1px @color-borde-p;
+		border-bottom: solid 1px @color-borde-p;
+		margin: 0;
+		padding: 40px 0;
+	}
+
+	#menu-container #menu li{
+		list-style: none;
+		margin: 0;
+		padding:10px;
+	}
+
+	#menu-container #menu li a{
+		color: @color-font-menu;
+		text-decoration:none;
+		-webkit-transition: all .3s;
+		-o-transition: all .3s;
+		transition: all .3s;
+	}
+
+	#menu-container #menu li a:hover{
+		color: lighten(@color-font-menu,50%);
+	}
+	// ************* CUERPO DE LA PAGINA **************
+	#main-container{
+		display: inline-block;
+		margin-left: 200px;
+		width: 2600px;
+
+	}
+
+	#main-container .seccion{
+		width: 500px;	
+		height: 600px;
+		display: inline-block;
+		padding:10px;
+		vertical-align: top;
+		border-right: dotted 1px @color-borde-sep;	
+	}
+
+	#main-container .seccion h2{
+		border-bottom: solid 1px @color-borde-sep;
+		padding: 20px 20px;
+	}
+
+	#seccionInicio{
+		padding-top: 100px !important;
+		width: 450px !important;
+		text-align: center;
+	}
+
+	#logo2{
+		width: 350px;
+		height: 330px;
+	}
+
+}
+
+
+
+
+
+

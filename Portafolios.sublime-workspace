@@ -4,12 +4,52 @@
 		"selected_items":
 		[
 			[
-				"rot",
-				"RotacionFinal"
+				"padd",
+				"padding-top"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"pa",
+				"padding-top"
 			],
 			[
 				"mar",
 				"margin"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"color-b",
+				"color-borde-p"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"rot",
+				"RotacionFinal"
 			],
 			[
 				"bac",
@@ -44,14 +84,6 @@
 				"focusout"
 			],
 			[
-				"ba",
-				"background"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
 				"max",
 				"max-width"
 			],
@@ -64,10 +96,6 @@
 				"margin-left"
 			],
 			[
-				"bor",
-				"border"
-			],
-			[
 				"txt",
 				"text-align"
 			],
@@ -76,20 +104,12 @@
 				"text-align"
 			],
 			[
-				"padd",
-				"padding"
-			],
-			[
 				"in",
 				"invert"
 			],
 			[
 				"bordec",
 				"border-color"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"margi",
@@ -140,10 +160,6 @@
 				"display"
 			],
 			[
-				"pa",
-				"padding-left"
-			],
-			[
 				"wi",
 				"width"
 			],
@@ -154,10 +170,6 @@
 			[
 				"focu",
 				"focusout"
-			],
-			[
-				"border-r",
-				"border-radius"
 			],
 			[
 				"text",
@@ -183,6 +195,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1202,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 1932,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.less",
+			"settings":
+			{
+				"buffer_size": 2062,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/variable.less",
+			"settings":
+			{
+				"buffer_size": 202,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -259,10 +303,14 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/Portafolios"
+		"/C/xampp/htdocs/Portafolios",
+		"/C/xampp/htdocs/Portafolios/css",
+		"/C/xampp/htdocs/Portafolios/img"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/Portafolios/js/main.js",
+		"/C/xampp/htdocs/Portafolios/css/main.css",
 		"/C/xampp/htdocs/Ubuntu/CursoCSS/keyframes/ejercicio1.html",
 		"/C/xampp/htdocs/Ubuntu/CursoCSS/keyframes/estrella.html",
 		"/C/xampp/htdocs/Ubuntu/CursoCSS/keyframes/style.less",
@@ -388,9 +436,7 @@
 		"/C/xampp/htdocs/PracticaResponsive/Bootstrap/Boostrap1/Boostrap21.html",
 		"/C/xampp/htdocs/PracticaResponsive/Bootstrap/Boostrap1/Boostrap22.html",
 		"/E/Aplicaciones/Web/PracticaResponsive/Bootstrap/Boostrap1/Boostrap1.html",
-		"/F/Led.txt",
-		"/C/xampp/htdocs/PracticaResponsive/Bootstrap/Boostrap1/pur.html",
-		"/C/Users/Felix/Downloads/primera.html"
+		"/F/Led.txt"
 	],
 	"find":
 	{
@@ -408,6 +454,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#logo-container #logo-menu{\n		\n	}",
 			"sdfg",
 			"animacion",
 			"@-webkit-keyframes animacion\n		{\n			to{\n				-webkit-transform: rotate3d(0,1,0,180deg);\n			}\n		}",
@@ -482,8 +529,122 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								746,
+								759
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 486.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1932,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								258,
+								258
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2062,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2045,
+								2045
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1512.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/variable.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								133,
+								117
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -564,7 +725,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 180.0,
+	"side_bar_width": 140.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
