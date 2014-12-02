@@ -3,6 +3,7 @@
 @import url("variable.less");
 
 *{
+	// box-sizing hace que el ancho definido no cambie al agregarle padding ni bordes a el div o elemento
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -21,6 +22,7 @@ html,body{
 	#menu-container{
 		background: @color-menu;
 		height: 100%;
+		// position fixed sirve para que un objeto no se mueva nunca de su posicion y se mantenga en la misma aunque el escroll baje o suba
 		position: fixed;
 		width:200px;
 		text-align: center;
@@ -95,6 +97,8 @@ html,body{
 		padding:10px;
 		vertical-align: top;
 		border-right: dotted 1px @color-borde-sep;	
+		overflow: hidden;
+		overflow-y: scroll;
 	}
 
 	#main-container .seccion h2{
@@ -111,8 +115,6 @@ html,body{
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
-		overflow: hidden;
-		overflow-y: scroll;
 	}
 
 	#logo2{
@@ -142,9 +144,203 @@ html,body{
 	}
 
 	.separador{
+		margin-bottom: 15px;
 		background-image: url("../img/separador.png");
 		background-position: center center;
-		height: 65px;
+		height: 45px;
+	}
+
+	/*************************secion de blog******************/
+
+	#seccionBlog p{
+		font-size: 14px;
+		line-height: 26px;
+		margin-top: -5px;
+		color: @color-descripcion;
+		font-style: italic;
+	}
+
+	.feed-icon{
+		float: left;
+		padding-right: 10px;
+		width: 60px;
+		height: 50px;
+	}
+
+	#posts a{
+		color: black;
+	}
+
+	.rss-container{
+
+		border-bottom: dotted 2px @color-borde-sep;
+		padding: 10px;
+		-webkit-transition: all .3s;
+		-o-transition: all .3s;
+		transition: all .3s;
+	}
+
+	.rss-container:hover{
+		background-color: darken(@color-base,10%); 
+		border-radius: 5px; 
+	}
+
+	.rss-container img{
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 15px;
+	}
+
+	.rss-container h3{
+		display: inline-block;
+		vertical-align: top;
+		font-size: 14px;
+		width: 350px;
+	}
+
+	/*************** TRABAJO ************************/
+	.sliderimg{
+		width: 100%;
+		height: 210px;
+		display: none;
+	}
+	
+	// selecciona el primer elemento
+	.sliderimg:nth-child(1){
+		display: block;
+	}
+
+	p{
+		font-family:arial;
+		font-size: 14px;
+		line-height: 26px;
+		color: @color-descripcion;
+		text-align: justify;
+	}
+
+
+	// ********************* GALERIA DE IMAGENES **********************
+	#trabajos-container a{
+		color: @color-white;
+		text-decoration: none;
+	}
+
+	#trabajos-container a .trabajo{
+		border: solid 5px @color-white;
+		height: 150px;
+		margin-bottom: 10px;
+		padding: 100px 10px 10px;
+		width: 450px;
+
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+
+		-webkit-transition: all .3s;
+		-o-transition: all .3s;
+		transition: all .3s;
+	}
+	
+	#trabajos-container a .trabajo.acuarela{
+		// se utiliza para colocar dos fondos el primero encima del segundo
+		background: url(../img/fondo-trabajo.png),url(../img/trabajo/coleccion1-1.jpg);
+		background-position: center center, 0 0;
+		background-size: 100%;
+	}
+
+	#trabajos-container a .trabajo.tinta{
+		// se utiliza para colocar dos fondos el primero encima del segundo
+		background: url(../img/fondo-trabajo.png),url(../img/trabajo/coleccion2-1.jpg);
+		background-position: center center, 0 0;
+		background-size: 100%;
+	}
+
+	#trabajos-container a .trabajo.abecedario{
+		// se utiliza para colocar dos fondos el primero encima del segundo
+		background: url(../img/fondo-trabajo.png),url(../img/trabajo/coleccion3-1.jpg);
+		background-position: center center, 0 0;
+		background-size: 100%;
+	}
+
+	#trabajos-container a .trabajo.dragones{
+		// se utiliza para colocar dos fondos el primero encima del segundo
+		background: url(../img/fondo-trabajo.png),url(../img/trabajo/coleccion4-1.jpg);
+		background-position: center center, 0 0;
+		background-size: 100%;
+	}
+
+	#trabajos-container a .trabajo.dulces{
+		// se utiliza para colocar dos fondos el primero encima del segundo
+		background: url(../img/fondo-trabajo.png),url(../img/trabajo/coleccion5-1.jpg);
+		background-position: center center, 0 0;
+		background-size: 100%;
+	}
+
+	#trabajos-container a .trabajo.retratos{
+		// se utiliza para colocar dos fondos el primero encima del segundo
+		background: url(../img/fondo-trabajo.png),url(../img/trabajo/coleccion6-1.jpg);
+		background-position: center center, 0 0;
+		background-size: 100%;
+	}
+
+	#trabajos-container a .trabajo.revistas{
+		// se utiliza para colocar dos fondos el primero encima del segundo
+		background: url(../img/fondo-trabajo.png),url(../img/trabajo/coleccion7-1.jpg);
+		background-position: center center, 0 0;
+		background-size: 100%;
+	}
+
+	#trabajos-container a .trabajo.sitiowww{
+		// se utiliza para colocar dos fondos el primero encima del segundo
+		background: url(../img/fondo-trabajo.png),url(../img/trabajo/coleccion8-1.jpg);
+		background-position: center center, 0 0;
+		background-size: 100%;
+	}
+
+	#trabajos-container a .trabajo.city{
+		// se utiliza para colocar dos fondos el primero encima del segundo
+		background: url(../img/fondo-trabajo.png),url(../img/trabajo/coleccion9-1.jpg);
+		background-position: center center, 0 0;
+		background-size: 100%;
+	}
+
+	#trabajos-container a .trabajo.influencia{
+		// se utiliza para colocar dos fondos el primero encima del segundo
+		background: url(../img/fondo-trabajo.png),url(../img/trabajo/coleccion10-1.png);
+		background-position: center center, 0 0;
+		background-size: 100%;
+	}
+
+	#trabajos-container a .trabajo.luces{
+		// se utiliza para colocar dos fondos el primero encima del segundo
+		background: url(../img/fondo-trabajo.png),url(../img/trabajo/coleccion11-1.jpg);
+		background-position: center center, 0 0;
+		background-size: 100%;
+	}
+
+	#trabajos-container a .trabajo.libros{
+		// se utiliza para colocar dos fondos el primero encima del segundo
+		background: url(../img/fondo-trabajo.png),url(../img/trabajo/coleccion12-1.jpg);
+		background-position: center center, 0 0;
+		background-size: 100%;
+	}
+
+	#trabajos-container a .trabajo.flat{
+		// se utiliza para colocar dos fondos el primero encima del segundo
+		background: url(../img/fondo-trabajo.png),url(../img/trabajo/coleccion13-1.png);
+		background-position: center center, 0 0;
+		background-size: 100%;
+	}
+
+	#trabajos-container a .trabajo.rostroscolor{
+		// se utiliza para colocar dos fondos el primero encima del segundo
+		background: url(../img/fondo-trabajo.png),url(../img/trabajo/coleccion14-1.jpg);
+		background-position: center center, 0 0;
+		background-size: 100%;
+	}
+
+	#trabajos-container a .trabajo:hover{
+		background-position: center center, center center;
 	}
 
 }

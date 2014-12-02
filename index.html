@@ -7,6 +7,7 @@
 	<script src="js/jquery-1.11.1.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/jquery.rss.js"></script>
+	<script src="js/Jquery.slider.js"></script>
 </head>
 <body>
 
@@ -48,13 +49,106 @@
 				<iframe width="400" height="315" src="http://www.youtube.com/embed/fzEXjmuwdYw" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
+
+
 		<div class="seccion" id="seccionBlog">
 			<h2>BLOG</h2>
+			<p><img src="img/feed.png" alt="" class="feed-icon">Estas son las ultimas entradas del blog, donde pueden conocer un poco mas sobre los temas que trato. A continuacion puede ver algunas de los ultimos posts.</p>
+			<div class="separador"></div>
 			<div id="posts"></div>
 		</div>
+
+
 		<div class="seccion" id="seccionTrabajo">
 			<h2>TRABAJO</h2>
+			<div id="slider-miniaturas">
+				<img src="img/imgt1.jpg" alt="" class="sliderimg">
+				<img src="img/imgt2.jpg" alt="" class="sliderimg">
+				<img src="img/imgt3.jpg" alt="" class="sliderimg">
+			</div>
+			
+			<div id="descripcion-trabajo">
+				<p>A continuacion les presento mi trabajo a lo largo de varios años. Las areas en las que he trabajado van desde el diseño de sitios web, hasta ilustraciones generales o diseños ya para profesionales para empresas o campañas de publicidad.</p>
+			</div>
+
+			<div class="separador"></div>
+
+			<div id="trabajos-container">
+				<a href="acuarela">
+					<div class="trabajo acuarela">
+						<div class="titulo">DIBUJO A ACUARELA</div>
+					</div>
+				</a>
+				<a href="tinta">
+					<div class="trabajo tinta">
+						<div class="titulo">DIBUJO CON TINTA</div>
+					</div>
+				</a>
+				<a href="abecedario">
+					<div class="trabajo abecedario">
+						<div class="titulo">ABACEDARIO</div>
+					</div>
+				</a>
+				<a href="dragones">
+					<div class="trabajo dragones">
+						<div class="titulo">DRAGONES</div>
+					</div>
+				</a>
+				<a href="dulces">
+					<div class="trabajo dulces">
+						<div class="titulo">LA VILLA DE LOS DULCES</div>
+					</div>
+				</a>
+				<a href="retratos">
+					<div class="trabajo retratos">
+						<div class="titulo">RETRATOS A PINTURA</div>
+					</div>
+				</a>
+				<a href="revistas">
+					<div class="trabajo revistas">
+						<div class="titulo">DISEÑO DE REVISTAS</div>
+					</div>
+				</a>
+				<a href="sitiowww">
+					<div class="trabajo sitiowww">
+						<div class="titulo">SITIO WEB</div>
+					</div>
+				</a>
+				<a href="city">
+					<div class="trabajo city">
+						<div class="titulo">DIBUJOS DE LA CIUDAD</div>
+					</div>
+				</a>
+				<a href="influencia">
+					<div class="trabajo influencia">
+						<div class="titulo">LIBROS DE ARTE</div>
+					</div>
+				</a>
+				<a href="luces">
+					<div class="trabajo luces">
+						<div class="titulo">LUZ DE NEON</div>
+					</div>
+				</a>
+				<a href="libros">
+					<div class="trabajo libros">
+						<div class="titulo">ILUSTRACIONES DE LIBROS</div>
+					</div>
+				</a>
+				<a href="flat">
+					<div class="trabajo flat">
+						<div class="titulo">ARTE FLAT DESIGN</div>
+					</div>
+				</a>
+				<a href="rostroscolor">
+					<div class="trabajo rostroscolor">
+						<div class="titulo">ROSTROS PSICODELICOS</div>
+					</div>
+				</a>
+				
+			</div>
 		</div>
+
+
 		<div class="seccion" id="seccionAcerca">
 			<h2>ACERCA</h2>
 		</div>
@@ -64,11 +158,7 @@
 	</div>
 	<!-- Fin del container -->
 
-	<script>
-		$(document).on("ready",function(){
-			$("#posts").blogRSS("http://www.vidamrr.com/feeds/posts/default?alt=json-in-script&callback=?");
-		});
-	</script>
+
 
 </body>
 </html>
