@@ -345,6 +345,7 @@
 	],
 	"file_history":
 	[
+		"/E/Programacion/Links De Ejemplos/Paginas Web.txt",
 		"/E/Programacion/Documentaciones/css.txt",
 		"/C/xampp/htdocs/PracticaJavaScript/DOM/ObtenerLink.html",
 		"/C/xampp/htdocs/PracticaJavaScript/DOM/ObtenerDatosArchivoXML.html",
@@ -371,7 +372,6 @@
 		"/C/xampp/htdocs/Ubuntu/CursoCSS/3DJqueryYCSS/JQueryTransit.js",
 		"/C/xampp/htdocs/Traductor/codiguiando.html",
 		"/E/Programacion/Links De Ejemplos/Otros.txt",
-		"/E/Programacion/Links De Ejemplos/Paginas Web.txt",
 		"/C/xampp/htdocs/Conferencia2014 - copia/Paginas/Registrar.php",
 		"/C/Users/Felix/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/E/Universidad/Base De Datos/OracleQuery/Select GroupBy.sql",
@@ -578,7 +578,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -608,7 +608,7 @@
 						"translation.y": 2178.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -633,10 +633,10 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 16.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -652,8 +652,8 @@
 						"selection":
 						[
 							[
-								8355,
-								8355
+								7276,
+								7276
 							]
 						],
 						"settings":
@@ -662,10 +662,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5661.0,
+						"translation.y": 5652.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
