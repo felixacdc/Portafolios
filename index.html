@@ -8,6 +8,8 @@
 	<script src="js/main.js"></script>
 	<script src="js/jquery.rss.js"></script>
 	<script src="js/Jquery.slider.js"></script>
+	<script src="js/Jquery.acordeon.js"></script>
+	<script src="js/Jquery.scroll.js"></script>
 </head>
 <body>
 
@@ -152,9 +154,120 @@
 
 		<div class="seccion" id="seccionAcerca">
 			<h2>ACERCA</h2>
+			<div class="foto-autor">
+				<img src="img/profile.jpg" alt="" width="200" height="200">
+			</div>
+				<div id="descripcion-inicial">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At saepe officia dolor labore repellendus eos molestias nam aliquam quas.</p>
+				</div>
+				<div class="separador"></div>
+
+				<div id="acordeon-container">
+					<div class="tab">
+						<div class="titulo">
+							Estudios
+						</div>
+						<div class="contenido">
+							<img src="img/escuela.jpg" alt="" width="100%">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus atque nihil pariatur itaque, adipisci libero repellat labore porro accusamus voluptas, quod laudantium deleniti temporibus consectetur reiciendis obcaecati numquam. Consectetur, pariatur!</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus atque nihil pariatur itaque, adipisci libero repellat labore porro accusamus voluptas, quod laudantium deleniti temporibus consectetur reiciendis obcaecati numquam. Consectetur, pariatur!</p>
+						</div>
+					</div>
+
+					<div class="tab">
+						<div class="titulo">
+							Experiencia Profesional
+						</div>
+						<div class="contenido">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus atque nihil pariatur itaque, adipisci libero repellat labore porro accusamus voluptas, quod laudantium deleniti temporibus consectetur reiciendis obcaecati numquam. Consectetur, pariatur!</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus atque nihil pariatur itaque, adipisci libero repellat labore porro accusamus voluptas, quod laudantium deleniti temporibus consectetur reiciendis obcaecati numquam. Consectetur, pariatur!</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, atque, culpa! Quibusdam voluptatum iure, temporibus eveniet nesciunt hic facilis dolor numquam sequi. Doloribus, veniam sapiente dolorum quo minus eius cupiditate?</p>
+						</div>
+					</div>
+
+					<div class="tab">
+						<div class="titulo">
+							Clientes Frecuentes
+						</div>
+						<div class="contenido">
+							<p>Entre los principales clientes con los que he colaborado estan:</p>
+
+							<ul>
+								<li>Gobierno de Estados Unidos</li>
+								<li>Apple</li>
+								<li>Adobe</li>
+								<li>Microsoft</li>
+								<li>CERN</li>
+								<li>Nike</li>
+								<li>Adidas</li>
+								<li>Union Europea</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="tab">
+						<div class="titulo">
+							Reconocimientos
+						</div>
+						<div class="contenido">
+							<p>Mejor promedio de la escuela de Oxford de todas las ingenierias y licenciaturas.</p>
+
+							<p>1° lugar ACM a nivel mundial</p>
+
+							<p>Mejor publicidad por la campaña de conscientizacion sobre los derechos humanos, patrocinado por 
+							la ONU</p>
+
+							<p>Mejor diseño de interfaz por los Apple Awards, en la categoria de apps de productividad por la aplicacion Liny</p>
+						</div>
+					</div>
+
+
+				</div>
+
+			
 		</div>
 		<div class="seccion" id="seccionContacto">
 			<h2>CONTACTO</h2>
+			<p>Cualquier duda que quieras conocer, cotizaciones, formas de pago, trabajos mucho mas especificos gracias por compartirnos a traves de esta seccion. Puedes seguirme en las redes sociales que encontraras a continuacion.</p>
+
+			<div id="redes-sociales">
+				<a href="#"><img src="img/facebook.png" alt="" width="60" style="border-radius:5px;"></a>
+				<a href="#"><img src="img/twitter.png" alt="" width="60"></a>
+				<a href="#"><img src="img/youtube.png" alt="" width="60"></a>
+				<a href="#"><img src="img/Dribbble.ico" alt="" width="60"></a>
+				<a href="#"><img src="img/in.png" alt="" width="60" style="border-radius:5px;"></a>
+				<a href="#"><img src="img/google.png" alt="" width="60" style="border-radius:5px;"></a>
+			</div>
+
+			<div id="formulario">
+				<form action="direccion.php">
+					<p>
+						Nombre Completo <br>
+						<input type="text" placeholder="Escribe tu nombre" required>
+					</p>
+					<p>
+						Correo Electronico <br>
+						<input type="email" placeholder="direccion@example.com" required>
+					</p>
+					<p>
+						Asunto <br>
+						<select name="subject" id="">
+							<option value="cotizaciong">Cotizacion General</option>
+							<option value="cotizacionp">Cotizacion Poster</option>
+							<option value="cotizacionsw">Cotizacion Sitio Web</option>
+							<option value="info">Mas Informacion</option>
+							<option value="otro">Otro</option>
+						</select>
+					</p>
+					<p>
+						Comentario <br>
+						<textarea name="comment" id="" cols="30" rows="10" required></textarea>
+					</p>
+					<div id="capa-boton">
+						<input type="submit" class="boton" value="Enviar Formulario">
+					</div>
+				</form>
+			</div>
 		</div>
 	</div>
 	<!-- Fin del container -->
